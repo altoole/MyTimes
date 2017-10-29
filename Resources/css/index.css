@@ -10,10 +10,10 @@ header {
   font-weight: bold;
   align-items: center;
   width: 100%;
-  height: 80px;
   border-bottom: 1px solid black;
   position: fixed;
   background-color: white;
+  z-index:1;
 }
 
 .logo {
@@ -38,18 +38,22 @@ a {
   padding: 10px;
 }
 
-.column {
-  border: 1px solid black;
+.columns {
+  border: 5px solid yellow;
   display:flex;
-  padding: 120px 50px;
+  position: relative;
+  top:80px;
   width: 100%;
+  justify-content: space-around;
 }
+
 
 .column.large {
   display: inline-flex;
   width: 630px;
   border: 2px solid blue;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.medium {
@@ -57,6 +61,7 @@ a {
   width: 300px;
   border: 2px solid green;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.small {
@@ -68,6 +73,13 @@ a {
 
 #phish-title {
   border: 1px solid black;
+  background-image: url("../images/img-story-main.png");
+  height: auto;
+  width: inherit;
+  color: white;
+  font-size: 40px;
+  align-items:flex-start;
+  font-weight: bold;
 }
 
 #phish {
@@ -87,5 +99,25 @@ a {
 }
 
 #cameras {
+  border: 1px solid black;
+}
+
+#FBI {
+  border: 1px solid black;
+}
+
+#cats {
+  border: 1px solid black;
+}
+
+#cats-cont {
+  border: 1px solid black;
+}
+
+#cookie {
+  border: 1px solid black;
+}
+
+#bites {
   border: 1px solid black;
 }
