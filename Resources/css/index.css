@@ -13,6 +13,7 @@ header {
   height: 80px;
   border-bottom: 1px solid black;
   position: fixed;
+  background-color: white;
 }
 
 .logo {
@@ -40,27 +41,51 @@ a {
 .column {
   border: 1px solid black;
   display:flex;
-  padding-top: 120px;
+  padding: 120px 50px;
+  width: 100%;
 }
 
 .column.large {
+  display: inline-flex;
   width: 630px;
-  border: 1px solid black;
+  border: 2px solid blue;
   flex-direction: column;
 }
 
 .column.medium {
+  display: inline-flex;
   width: 300px;
-  border: 1px solid black;
+  border: 2px solid green;
   flex-direction: column;
 }
 
 .column.small {
+  display: inline-flex;
   width: 240px;
-  border: 1px solid black;
+  border: 2px solid red;
   flex-direction: column;
 }
 
 #phish-title {
+  border: 1px solid black;
+}
+
+#phish {
+  border: 1px solid black;
+}
+
+#orca {
+  border: 1px solid black;
+}
+
+#backwards {
+  border: 1px solid black;
+}
+
+#burger {
+  border: 1px solid black;
+}
+
+#cameras {
   border: 1px solid black;
 }
