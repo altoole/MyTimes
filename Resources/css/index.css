@@ -44,7 +44,6 @@ a {
   position: relative;
   top:80px;
   width: 100%;
-  justify-content: space-around;
 }
 
 
@@ -71,7 +70,7 @@ a {
   flex-direction: column;
 }
 
-#phish-title {
+.phish-title {
   border: 1px solid black;
   background-image: url("../images/img-story-main.png");
   height: 300px;
@@ -81,21 +80,34 @@ a {
   font-size: 40px;
 }
 
-#phish {
+.phish {
   border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-#orca {
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.storycolumn {
+  padding: 5px;
+}
+
+.orca {
   border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#backwards {
+.backwards {
   border: 1px solid black;
   background-image: url("../images/img-story-2.png");
   height: 300px;
@@ -103,16 +115,24 @@ a {
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#burger {
+.burger {
   border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#cameras {
+.cameras {
   border: 1px solid black;
   background-image: url("../images/img-story-3.png");
   height: 300px;
@@ -120,16 +140,20 @@ a {
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#FBI {
+.FBI {
   border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-#cats {
+.cats {
   border: 1px solid black;
   background-image: url("../images/img-story-1.png");
   height: 300px;
@@ -137,22 +161,37 @@ a {
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-#cats-cont {
+.cats-cont {
   border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-#cookie {
+.news {
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.cookie {
   border: 1px solid black;
 }
 
-#bites {
-  border: 1px solid black;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+.bites {
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  flex-wrap: wrap;
 }
