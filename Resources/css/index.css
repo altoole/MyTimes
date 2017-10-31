@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 00;
   width: 100%;
 }
 
@@ -30,27 +30,25 @@ header {
 
 nav {
   display: inline-flex;
-  width: auto;
 }
 
-a {
+nav a {
   color: black;
   padding: 10px;
 }
 
 .columns {
-  border: 5px solid yellow;
   display:flex;
   position: relative;
   top:80px;
   width: 100%;
+  padding: 20px;
 }
 
 
 .column.large {
   display: inline-flex;
   width: 630px;
-  border: 2px solid blue;
   flex-direction: column;
   margin-right: 32px;
 }
@@ -58,7 +56,6 @@ a {
 .column.medium {
   display: inline-flex;
   width: 300px;
-  border: 2px solid green;
   flex-direction: column;
   margin-right: 32px;
 }
@@ -66,12 +63,10 @@ a {
 .column.small {
   display: inline-flex;
   width: 240px;
-  border: 2px solid red;
   flex-direction: column;
 }
 
 .phish-title {
-  border: 1px solid black;
   background-image: url("../images/img-story-main.png");
   height: 300px;
   color: white;
@@ -81,7 +76,6 @@ a {
 }
 
 .phish {
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -98,75 +92,54 @@ a {
 }
 
 .orca {
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .backwards {
-  border: 1px solid black;
   background-image: url("../images/img-story-2.png");
   height: 300px;
   color: white;
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .burger {
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .cameras {
-  border: 1px solid black;
   background-image: url("../images/img-story-3.png");
   height: 300px;
   color: white;
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .FBI {
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
 .cats {
-  border: 1px solid black;
   background-image: url("../images/img-story-1.png");
   height: 300px;
   color: white;
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .cats-cont {
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -178,20 +151,49 @@ a {
   font-size: 15px;
 }
 
-.cookie {
-  border: 1px solid black;
+.news {
+  text-align: center;
 }
 
 .bites {
   border-bottom: 1px solid black;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   background-color: WhiteSmoke;
   font-family: Verdana;
-  font-size: 12px;
   color: DimGray;
   display: flex;
   flex-direction: column;
-  justify-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 80px;
+  height: 300px;
+  background-color: MediumAquamarine;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+#times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer a {
+  color: black;
+  justify-content: space-around;
+  padding: 10px;
 }
