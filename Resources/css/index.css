@@ -74,44 +74,76 @@ a {
 #phish-title {
   border: 1px solid black;
   background-image: url("../images/img-story-main.png");
-  height: auto;
-  width: inherit;
+  height: 300px;
   color: white;
-  font-size: 40px;
-  align-items:flex-start;
   font-weight: bold;
+  font-family: Georgia;
+  font-size: 40px;
 }
 
 #phish {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #orca {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #backwards {
   border: 1px solid black;
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+  color: white;
+  font-weight: bold;
+  font-family: Georgia;
+  font-size: 30px;
 }
 
 #burger {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #cameras {
   border: 1px solid black;
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  color: white;
+  font-weight: bold;
+  font-family: Georgia;
+  font-size: 30px;
 }
 
 #FBI {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #cats {
   border: 1px solid black;
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+  color: white;
+  font-weight: bold;
+  font-family: Georgia;
+  font-size: 30px;
 }
 
 #cats-cont {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #cookie {
@@ -120,4 +152,7 @@ a {
 
 #bites {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
